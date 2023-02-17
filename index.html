@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="p-5 ">
+    <header class="flex justify-between bg-sky-100	 rounded p-5 opacity">
+        <h3 class="text-3xl font-bold">Interactive <br> <span class="text-2xl font-light">Geometry Genius</span> </h3>
+        <button class="bg-[#1090D8] text-white  px-10 rounded-lg">Blog</button>
+    </header>
+
+    <main class="grid grid-cols-3 mt-5">
+        <div class="col-span-2 mr-5">
+            <div class="grid grid-cols-3 gap-3 text-center">
+                    <!-- .card>.font-bold+h3+input#width{cm}+input#height{cm}+button -->
+                    <div class="card space-y-5 mx-auto border rounded p-5">
+                        <img src="images/triangle.png" class="h-48 mx-auto" alt="">
+                        <h3 class="font-bold">Triangele</h3>
+                        <h3>Area (A) = 0.5*b*h</h3>
+                        <div class="flex justify-center space-x-5">
+                            <input type="text" id="width" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
+                        <input type="text" id="height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
+                        </div>
+                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded">Calculate</button>
+                    </div>
+
+                    <div class="card space-y-5 mx-auto border rounded p-5">
+                        <img src="images/rectangle.png" class="h-48 mx-auto" alt="">
+                        <h3 class="font-bold">Rectangle</h3>
+                        <h3>Area (A) = 0.5*b*h</h3>
+                        <div class="flex justify-center space-x-5">
+                            <input type="text" id="width" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
+                        <input type="text" id="height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
+                        </div>
+                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded">Calculate</button>
+                    </div>
+
+                    <div class="card space-y-5 mx-auto border rounded p-5">
+                        <img src="images/parallelogram.png" class="h-48 mx-auto" alt="">
+                        <h3 class="font-bold">Parallelogram</h3>
+                        <h3>Area (A) = 0.5*b*h</h3>
+                        <div class="flex justify-center space-x-5">
+                            <input type="text" id="width" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
+                        <input type="text" id="height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
+                        </div>
+                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded">Calculate</button>
+                    </div>
+ 
+                    <!-- 2nd row -->
+
+
+
+                    <div class="card space-y-5 mx-auto border rounded p-5">
+                        <img src="images/rhombus.png" class="h-48 mx-auto" alt="">
+                        <h3 class="font-bold">Rhombus</h3>
+                        <h3>Area (A) = 0.5*b*h</h3>
+                        <div class="flex justify-center space-x-5">
+                            <input type="text" id="width" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
+                        <input type="text" id="height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
+                        </div>
+                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded">Calculate</button>
+                    </div>
+
+                    <div class="card space-y-5 mx-auto border rounded p-5">
+                        <img src="images/pentagon.png" class="h-48 mx-auto" alt="">
+                        <h3 class="font-bold">Pentagon</h3>
+                        <h3>Area (A) = 0.5*b*h</h3>
+                        <div class="flex justify-center space-x-5">
+                            <input type="text" id="width" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
+                        <input type="text" id="height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
+                        </div>
+                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded">Calculate</button>
+                    </div>
+
+                    <div class="card space-y-5 mx-auto border rounded p-5">
+                        <img src="images/ellipse.png" class="h-48 mx-auto" alt="">
+                        <h3 class="font-bold">Elipse</h3>
+                        <h3>Area (A) = 0.5*b*h</h3>
+                        <div class="flex justify-center space-x-5">
+                            <input type="text" id="width" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
+                        <input type="text" id="height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
+                        </div>
+                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded">Calculate</button>
+                    </div>
+ 
+
+                <!-- 3rd Row -->
+
+                
+                   </div>
+
+        </div>
+        <!-- Area Calculation -->
+
+        <div>
+            <h3 class="text-center"><u>Area Calculation</u></h3>
+            <ol class="list-decimal p-3">
+                <li>
+                     <div class="flex justify-between place-items-center">
+                    <h3>Triangele</h3>
+                    <h3>2 cm <sup>2</sup></h3>
+                     <button class="bg-[#1090D8] text-white p-3 rounded">Convert to m <sup>2</sup></button>
+                     </div>
+                </li>
+
+            </ol>
+
+        </div>
+    </main>
+
+</body>
+</html> 
