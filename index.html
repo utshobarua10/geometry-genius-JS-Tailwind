@@ -23,10 +23,10 @@
                         <h3 class="font-bold">Triangele</h3>
                         <h3>Area (A) = 0.5*b*h</h3>
                         <div class="flex justify-center space-x-5">
-                            <input type="text" id="width" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
-                        <input type="text" id="height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
+                            <input type="text"  placeholder="b" class="w-20 p-1 rounded bg-slate-200" id="triangle-base">&nbsp;cm</input>
+                        <input type="text" placeholder="h" class="w-20 p-1 rounded bg-slate-200" item id="triangle-height">&nbsp; cm</input>
                         </div>
-                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded">Calculate</button>
+                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded calculate-btn" id="triangle" >Calculate</button>
                     </div>
 
                     <div class="card space-y-5 mx-auto border rounded p-5">
@@ -34,10 +34,10 @@
                         <h3 class="font-bold">Rectangle</h3>
                         <h3>Area (A) = 0.5*b*h</h3>
                         <div class="flex justify-center space-x-5">
-                            <input type="text" id="width" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
-                        <input type="text" id="height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
+                            <input type="text" id="rectangle-base" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
+                        <input type="text" id="rectangle-height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
                         </div>
-                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded">Calculate</button>
+                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded calculate-btn" id="rectangle">Calculate</button>
                     </div>
 
                     <div class="card space-y-5 mx-auto border rounded p-5">
@@ -45,25 +45,25 @@
                         <h3 class="font-bold">Parallelogram</h3>
                         <h3>Area (A) = 0.5*b*h</h3>
                         <div class="flex justify-center space-x-5">
-                            <input type="text" id="width" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
-                        <input type="text" id="height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
+                            <input type="text" id="parallelogram-base" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
+                            <input type="text" id="parallelogram-height" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
                         </div>
-                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded">Calculate</button>
+                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded calculate-btn" id="parallelogram">Calculate</button>
                     </div>
  
                     <!-- 2nd row -->
 
 
-
+ 
                     <div class="card space-y-5 mx-auto border rounded p-5">
                         <img src="images/rhombus.png" class="h-48 mx-auto" alt="">
                         <h3 class="font-bold">Rhombus</h3>
                         <h3>Area (A) = 0.5*b*h</h3>
                         <div class="flex justify-center space-x-5">
-                            <input type="text" id="width" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
-                        <input type="text" id="height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
+                            <input type="text" id="rhombus-base" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
+                        <input type="text" id="rhombus-height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
                         </div>
-                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded">Calculate</button>
+                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded calculate-btn" id="rhombus">Calculate</button>
                     </div>
 
                     <div class="card space-y-5 mx-auto border rounded p-5">
@@ -71,10 +71,10 @@
                         <h3 class="font-bold">Pentagon</h3>
                         <h3>Area (A) = 0.5*b*h</h3>
                         <div class="flex justify-center space-x-5">
-                            <input type="text" id="width" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
-                        <input type="text" id="height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
+                            <input type="text" id="pentagon-base" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
+                        <input type="text" id="pentagon-height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
                         </div>
-                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded">Calculate</button>
+                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded calculate-btn" id="pentagon">Calculate</button>
                     </div>
 
                     <div class="card space-y-5 mx-auto border rounded p-5">
@@ -82,10 +82,10 @@
                         <h3 class="font-bold">Elipse</h3>
                         <h3>Area (A) = 0.5*b*h</h3>
                         <div class="flex justify-center space-x-5">
-                            <input type="text" id="width" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
-                        <input type="text" id="height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
+                            <input type="text" id="ellipse-base" placeholder="b" class="w-20 p-1 rounded bg-slate-200">&nbsp;cm</input>
+                        <input type="text" id="ellipse-height" placeholder="h" class="w-20 p-1 rounded bg-slate-200">&nbsp; cm</input>
                         </div>
-                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded">Calculate</button>
+                        <button class="bg-[#1090D8] text-white px-20 py-2 rounded calculate-btn" id="ellipse">Calculate</button>
                     </div>
  
 
@@ -99,19 +99,23 @@
 
         <div>
             <h3 class="text-center"><u>Area Calculation</u></h3>
-            <ol class="list-decimal p-3">
-                <li>
-                     <div class="flex justify-between place-items-center">
-                    <h3>Triangele</h3>
-                    <h3>2 cm <sup>2</sup></h3>
+            <ol class="list-decimal space-y-3" id="viewArea">
+                <li class="list flex justify-between place-items-center">
+                    <h3> Triangle </h3>
+                    <h3 ><span></span> cm <sup>2</sup></h3>
                      <button class="bg-[#1090D8] text-white p-3 rounded">Convert to m <sup>2</sup></button>
-                     </div>
+                    
                 </li>
+
+                
 
             </ol>
 
         </div>
     </main>
+    <!-- Adding the script tags -->
+    <script src="js/utlity.js"></script>
+    <script src="js/calculation.js"></script>
 
 </body>
 </html> 
